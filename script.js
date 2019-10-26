@@ -270,7 +270,7 @@
 		fetch(apiEndpoint)
 		        .then(response=>response.json())
 				.then(data=>displayCartTotal(data))
-				.catch(error=>console.log(error));
+				.catch(error=>console.log(` the error is ${error}`));
         
       };
       
